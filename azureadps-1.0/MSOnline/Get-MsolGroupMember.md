@@ -147,15 +147,15 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ### Microsoft.Online.Administration.GroupMember
 This cmdlet returns objects that contain the following information:
 
-* CommonName. The common name of the group.
+* CommonName. The common name of the member.
 
-* DisplayName. The display name of the group.
+* DisplayName. The display name of the member.
 
-* EmailAddress. The primary email address of the group (for MailEnabled groups only).
+* EmailAddress. The UserPrincipalName of the member.
 
-* GroupMemberType. The group type (SecurityGroup, Distributionlist, or MailEnabledSecurityGroup).
+* GroupMemberType. The group type (SecurityGroup, Distributionlist, MailEnabledSecurityGroup, or User).
 
-* ObjectId. The unique ID of the group.
+* ObjectId. The unique ID of the member.
 
 ## NOTES
 
